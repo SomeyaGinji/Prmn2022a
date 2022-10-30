@@ -43,8 +43,8 @@ public class Kadai5 {
 
         //各メソッドを呼び出し、最高点と最低点と平均点を表示
         System.out.println(".....");
-        System.out.println("最高点:" + max(score) + "点");
-        System.out.println("最低点:" + min(score) + "点");
+        System.out.println("最高点:" + max(score) + "点"); //max = Math.max(max, score[i]);で済ませてもOK
+        System.out.println("最低点:" + min(score) + "点"); //min = Math.min(min, score[i]);で済ませてもOK
         System.out.println("平均点:" + average(score) + "点");
         System.out.println(".....");
 
