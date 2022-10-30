@@ -52,10 +52,10 @@ public class Kadai5 {
 
     //最低点を返すメソッド
     static int min(int[] score){
-        int min = score[0];
-        for (int i = 0; i < score.length; i++) {
-            if (min > score[i]) {
-                min = score[i];
+        int min = score[0]; //minに0番目の点数を格納
+        for (int i = 0; i < score.length; i++) { //全ての点数について、
+            if (min > score[i]) { //minより小さい点数であれば、
+                min = score[i]; //minの値をその点数に更新
             }
         }
         return min;
@@ -63,10 +63,10 @@ public class Kadai5 {
 
     // 最高点を返すメソッド
     static int max(int[] score){
-        int max = score[0];
-        for (int i = 0; i < score.length; i++) {
-            if (max < score[i]) {
-                max = score[i];
+        int max = score[0]; //maxに0番目の点数を格納
+        for (int i = 0; i < score.length; i++) { //全ての点数について、
+            if (max < score[i]) { //maxより高い点数であれば、
+                max = score[i]; //maxの値をその点数に更新
             }
         }
         return max;
@@ -74,12 +74,12 @@ public class Kadai5 {
 
     // 平均点を返すメソッド
     static double average(int[] score){
-        double ave;
-        double sum = 0;
-        for (int i = 0; i < score.length; i++) {
-            sum += score[i];
+        double ave; //平均点を格納する変数aveを用意
+        double sum = 0; //合計点を格納する変数sumを用意
+        for (int i = 0; i < score.length; i++) { //全ての点数について、
+            sum += score[i]; //sumにscoreの値を累積させる
         }
-        ave = sum / score.length;
+        ave = sum / score.length; //平均を求める式
         return ave;
     }
 
