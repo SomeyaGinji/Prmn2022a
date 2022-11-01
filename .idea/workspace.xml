@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ca84825-5d94-4b30-abfd-85ac36461137" name="変更" comment="" />
+    <list default="true" id="0ca84825-5d94-4b30-abfd-85ac36461137" name="変更" comment="">
+      <change beforePath="$PROJECT_DIR$/src/lecture2/Exercise2_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture2/Exercise2_2.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +43,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="アプリケーション.Exercise2_1">
+  <component name="RunManager" selected="アプリケーション.Exercise2_2">
     <configuration name="Exercise2_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lecture2.Exercise2_1" />
       <module name="Prmn2022a" />
@@ -55,12 +57,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Kadai2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture1.Kadai2" />
+    <configuration name="Exercise2_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture2.Exercise2_2" />
       <module name="Prmn2022a" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture1.*" />
+          <option name="PATTERN" value="lecture2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.Exercise2_2" />
         <item itemvalue="アプリケーション.Exercise2_1" />
         <item itemvalue="アプリケーション.Kadai5" />
         <item itemvalue="アプリケーション.Kadai4" />
         <item itemvalue="アプリケーション.Kadai3" />
-        <item itemvalue="アプリケーション.Kadai2" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +131,7 @@
       <workItem from="1667141488632" duration="275000" />
       <workItem from="1667141770195" duration="221000" />
       <workItem from="1667200021620" duration="1783000" />
-      <workItem from="1667300680800" duration="3795000" />
+      <workItem from="1667300680800" duration="4123000" />
     </task>
     <servers />
   </component>
