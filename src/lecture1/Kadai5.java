@@ -64,9 +64,9 @@ public class Kadai5 {
     // 最高点を返すメソッド
     static int max(int[] score){
         int max = score[0]; //maxに0番目の点数を格納
-        for (int i = 0; i < score.length; i++) { //全ての点数について、
-            if (max < score[i]) { //maxより高い点数であれば、
-                max = score[i]; //maxの値をその点数に更新
+        for (int tensuu: score) { //全ての点数について、
+            if (max < tensuu) { //maxより高い点数であれば、
+                max = tensuu; //maxの値をその点数に更新
             }
         }
         return max;
