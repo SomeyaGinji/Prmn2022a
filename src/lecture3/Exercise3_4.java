@@ -14,7 +14,7 @@ public class Exercise3_4 {
                 new Vegetable("じゃがいも", 154)
         };
 
-        for (Vegetable vegetable : vegetables) {
+        for (Vegetable vegetable : vegetables) { //拡張for文
             arrayList.add(vegetable);
         }
 
