@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0ca84825-5d94-4b30-abfd-85ac36461137" name="変更" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lecture3/Exercise3_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture3/Exercise3_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lecture3/Exercise3_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture3/Exercise3_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,20 +43,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="アプリケーション.Exercise3_2">
-    <configuration name="Exercise2_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture2.Exercise2_1" />
-      <module name="Prmn2022a" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lecture2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="アプリケーション.Exercise3_3">
     <configuration name="Exercise2_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lecture2.Exercise2_2" />
       <module name="Prmn2022a" />
@@ -111,13 +96,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Exercise3_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture3.Exercise3_3" />
+      <module name="Prmn2022a" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lecture3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.Exercise3_3" />
         <item itemvalue="アプリケーション.Exercise3_2" />
         <item itemvalue="アプリケーション.Exercise3_1" />
         <item itemvalue="アプリケーション.Exercise2_3" />
         <item itemvalue="アプリケーション.Exercise2_2" />
-        <item itemvalue="アプリケーション.Exercise2_1" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +134,7 @@
       <workItem from="1667300680800" duration="8903000" />
       <workItem from="1667361423948" duration="511000" />
       <workItem from="1667374438939" duration="1293000" />
-      <workItem from="1667798993922" duration="2313000" />
+      <workItem from="1667798993922" duration="3251000" />
     </task>
     <servers />
   </component>
