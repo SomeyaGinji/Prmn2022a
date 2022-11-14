@@ -52,6 +52,7 @@ public class ATM {
         System.out.println("口座番号:" + number + " は存在しません。");
     }
 
+    // 出金するメソッド
     public long withdraw(String number, long money) {
         for (Account account : accountList) {
             // 引数のnumberがaccountListに存在すれば、
