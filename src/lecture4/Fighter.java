@@ -27,11 +27,11 @@ public class Fighter {
         System.out.println(name + "は" + enemy.name + "に" + power + "ダメージを与えた。");
     }
 
-    // 自分が生きている(True)かを返す関数
+    // 自分が生きている(True)かを返すメソッド
     public boolean isAlive(){
         if (hitPoint > 0) { // 生存時
             return true;
-        } else { // 死亡時
+        } else { // 戦闘不能時
             return false;
         }
     }
@@ -43,8 +43,10 @@ public class Fighter {
     }
 
     // Setter
+    // ついでに現時点のhitPointを表示する
     public void setHitPoint(int hitPoint) {
         this.hitPoint = hitPoint;
+        System.out.println(name + "の残りhitPoint : " + hitPoint);
     }
 
     // Getter
