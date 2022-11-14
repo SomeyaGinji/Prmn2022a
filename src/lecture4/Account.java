@@ -14,4 +14,23 @@ public class Account {
         this.balance = 0;
     }
 
+    // 以下アクセサ(Getter,Setter)
+    // ATMクラスを作成したときに必要になったので作りました
+
+    public String getName() {
+        return name;
+    }
+
+    public String getNumber() {
+        return number;
+    }
+
+    public long getBalance() {
+        return balance;
+    }
+
+    public void setBalance(long balance) {
+        this.balance = balance;
+    }
+
 }
