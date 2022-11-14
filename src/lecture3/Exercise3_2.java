@@ -13,7 +13,7 @@ public class Exercise3_2 {
         System.out.println("何行分入力しますか？");
 
         int number = scanner.nextInt();
-        String empty = scanner.nextLine(); //空読み
+        scanner.nextLine(); //空読み
 
         for (int i = 0; i < number; i++) {
             System.out.println(i + "行目：");
@@ -22,7 +22,7 @@ public class Exercise3_2 {
         }
 
         for (String textList : arrayList) { //拡張for文
-            System.out.println(textList);
+            System.out.println("[" + arrayList.indexOf(textList) + "]" + textList);
         }
 
     }
