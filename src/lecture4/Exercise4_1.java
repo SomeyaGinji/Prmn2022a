@@ -11,14 +11,13 @@ public class Exercise4_1 {
         while (true) { // 永遠に繰り返す
 
             fighter1.attack(fighter2); //fighter1が攻撃する
-            fighter2.setHitPoint(fighter2.getHitPoint());
+            fighter2.setHitPoint(fighter2.getHitPoint()); //fighter2のHP確認
             if ( !fighter2.isAlive()) { //fighter2が倒れていたら、
                 System.out.println(fighter2.getName() + "は倒れた。");
                 break; // 試合終了
             }
-
             fighter2.attack(fighter1); //fighter2が攻撃する
-            fighter1.setHitPoint(fighter1.getHitPoint());
+            fighter1.setHitPoint(fighter1.getHitPoint()); //fighter1のHP確認
             if ( !fighter1.isAlive() ) { //fighter1が倒れていたら、
                 System.out.println(fighter1.getName() + "は倒れた。");
                 break; // 試合終了

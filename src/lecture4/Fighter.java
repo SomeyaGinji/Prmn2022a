@@ -45,7 +45,7 @@ public class Fighter {
     // Setter
     // ついでに現時点のhitPointを表示する
     public void setHitPoint(int hitPoint) {
-        this.hitPoint = hitPoint;
+        this.hitPoint = hitPoint; // ↑のHPの値をフィールドのHPの値として更新
         System.out.println(name + "の残りhitPoint : " + hitPoint);
     }
 
