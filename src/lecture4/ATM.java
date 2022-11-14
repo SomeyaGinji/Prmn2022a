@@ -45,7 +45,7 @@ public class ATM {
                 // そのaccountのbalanceにmoneyの値を加える(入金)
                 account.setBalance(account.getBalance() + money);
                 System.out.println("口座番号:" + number + " に " + money + " 円入金しました。");
-                break;
+                return;
             }
         }
         // 口座番号が存在しなければ、
