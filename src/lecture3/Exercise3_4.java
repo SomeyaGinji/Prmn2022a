@@ -22,5 +22,13 @@ public class Exercise3_4 {
             textlist.print();
         }
 
+        /* 上2つのfor文の別解
+
+        for (int i = 0;i < arrayList.size(); i++) {
+            arrayList.get(i).print();
+        }
+
+        */
+
     }
 }
