@@ -4,7 +4,7 @@ public class Exercise5_5 {
 
     public static void main(String[] args) {
 
-        // LocustのインスタンスをInsect型の変数に代入
+        // LocustのインスタンスをInsect型の変数locusta(トノサマバッタ)に代入
         Insect locusta = new Locust();
 
         // Locustのmoveメソッドを呼び出す
