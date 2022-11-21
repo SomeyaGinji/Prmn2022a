@@ -35,6 +35,7 @@ public class Fighter {
         } else { // 戦闘不能時
             return false;
         }
+        // return hitPoint>0; としてもOK
     }
 
     // フィールドは基本的にprivateなので、
