@@ -22,8 +22,9 @@ public class Fighter {
 
     // 敵にダメージを与えるメソッド
     public void attack(Fighter enemy){
-        // hitPointは敵の、powerは自分の。
-        enemy.hitPoint -= power;
+        // 敵のhitPointから自分のpower(攻撃力)を引き、減ったhitPointをセットする
+        enemy.setHitPoint(enemy.getHitPoint() - power);
+        // ↑の処理は enemy.hitPoint -= power; でもできる
         System.out.println(name + "は" + enemy.name + "に" + power + "ダメージを与えた。");
     }
 
