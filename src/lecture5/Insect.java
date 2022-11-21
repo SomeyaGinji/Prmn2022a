@@ -4,6 +4,6 @@ public class Insect {
 
     // メソッド
     public void move() {
-        System.out.println("歩いたよ。");
+        System.out.println("歩いたよ");
     }
 }
