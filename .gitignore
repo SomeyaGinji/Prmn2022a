@@ -2,7 +2,6 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-src/lecture6/Exercise6_2.java/
 
 ### Eclipse ###
 .apt_generated

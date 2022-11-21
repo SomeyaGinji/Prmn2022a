@@ -5,7 +5,6 @@ public class Exercise6_2 {
     public static void main(String[] args) {
 
         // Integer型のArrayListを用意（変数名は各自で考える）
-        System.out.println("musi");
 
 
         // Scannerクラス、Randomクラスのインスタンス化
